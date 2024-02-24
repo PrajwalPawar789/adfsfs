@@ -121,7 +121,7 @@ const Dashboard = ({ userRole }) => {
                     <button onClick={() => handleGenerateReport(user.id)} className="text-blue-400 hover:text-blue-200 font-semibold focus:outline-none">Generate Report</button>
                   </td>
                 </tr>
-              )).reverse()} {/* Reverse the order of mapped items */}
+              ))}
             </tbody>
           </table>
         </div>
